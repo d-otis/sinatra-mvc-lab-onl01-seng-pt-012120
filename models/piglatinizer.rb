@@ -1,7 +1,7 @@
 class PigLatinizer
 
-  @way = "way"
-  @ay = "ay"
+  # @way = "way"
+  # @ay = "ay"
 
   def initialize
     @way = "way"
