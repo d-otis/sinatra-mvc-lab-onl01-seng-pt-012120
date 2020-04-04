@@ -28,9 +28,7 @@ class PigLatinizer
       elsif starts_with_two_consonants?(word) && !starts_with_three_consonants?(word)
         pl_two_consonant_word(word)
       elsif starts_with_three_consonants?(word)
-        first_three_letters = word[0..2]
-        headless_word = word[3..word.size-1]
-        final_word = headless_word + first_three_letters + @@ay
+
       elsif starts_with_a_vowel?(word)
         final_word = word + @@way
       end
@@ -46,6 +44,12 @@ class PigLatinizer
     first_two_letters = word[0..1]
     headless_word = word[2..word.size-1]
     final_word = headless_word + first_two_letters + @@ay
+  end
+
+  def pl_three_consonant_word(word)
+    first_three_letters = word[0..2]
+    headless_word = word[3..word.size-1]
+    final_word = headless_word + first_three_letters + @@ay
   end
 
   def starts_with_one_consonant?(word)
