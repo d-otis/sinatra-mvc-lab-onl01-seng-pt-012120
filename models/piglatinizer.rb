@@ -39,6 +39,10 @@ class PigLatinizer
       end
   end
 
+  def word_changer(word)
+    
+  end
+
   def pl_one_consonant_word(word)
     first_letter = word[0]
     headless_word = word[1..word.size-1]
