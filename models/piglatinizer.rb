@@ -28,19 +28,19 @@ class PigLatinizer
       # lop off first two letters and tack on end
     # elsif starts with vowel
       # keep work but tack on way @ the end
-      if starts_with_one_consonant?(word)
-        pl_one_consonant_word(word)
-      elsif starts_with_two_consonants?(word) && !starts_with_three_consonants?(word)
-        pl_two_consonant_word(word)
-      elsif starts_with_three_consonants?(word)
-        pl_three_consonant_word(word)
-      elsif starts_with_a_vowel?(word)
-        pl_vowel_word(word)
-      end
+
   end
 
   def word_changer(word)
-    
+    if starts_with_one_consonant?(word)
+      pl_one_consonant_word(word)
+    elsif starts_with_two_consonants?(word) && !starts_with_three_consonants?(word)
+      pl_two_consonant_word(word)
+    elsif starts_with_three_consonants?(word)
+      pl_three_consonant_word(word)
+    elsif starts_with_a_vowel?(word)
+      pl_vowel_word(word)
+    end
   end
 
   def pl_one_consonant_word(word)
