@@ -30,7 +30,7 @@ class PigLatinizer
       elsif starts_with_three_consonants?(word)
         pl_three_consonant_word(word)
       elsif starts_with_a_vowel?(word)
-        final_word = word + @@way
+
       end
   end
 
@@ -53,7 +53,7 @@ class PigLatinizer
   end
 
   def pl_vowel_word(word)
-    
+    final_word = word + @@way
   end
 
   def starts_with_one_consonant?(word)
