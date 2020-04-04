@@ -17,9 +17,7 @@ class PigLatinizer
     # elsif starts with vowel
       # keep work but tack on way @ the end
       if starts_with_one_consonant?(word)
-        first_letter = word[0]
-        headless_word = word[1..word.size-1]
-        final_word = headless_word + first_letter + ay
+        
       elsif starts_with_two_consonants?(word) && !starts_with_three_consonants?(word)
         first_two_letters = word[0..1]
         headless_word = word[2..word.size-1]
@@ -34,7 +32,9 @@ class PigLatinizer
   end
 
   def pl_one_consonant_word(word)
-    
+    first_letter = word[0]
+    headless_word = word[1..word.size-1]
+    final_word = headless_word + first_letter + ay
   end
 
   def starts_with_one_consonant?(word)
