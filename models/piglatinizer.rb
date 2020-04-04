@@ -12,7 +12,7 @@ class PigLatinizer
 
 
     if is_sentence?(word)
-
+      sentence_changer(word)
     else
       word_changer(word)
     end
