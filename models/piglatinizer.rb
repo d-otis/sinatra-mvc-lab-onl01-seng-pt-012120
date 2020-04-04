@@ -30,7 +30,7 @@ class PigLatinizer
       elsif starts_with_three_consonants?(word)
         pl_three_consonant_word(word)
       elsif starts_with_a_vowel?(word)
-
+        pl_vowel_word(word)
       end
   end
 
