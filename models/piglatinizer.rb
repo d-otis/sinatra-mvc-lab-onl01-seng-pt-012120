@@ -11,7 +11,7 @@ class PigLatinizer
     end
   end
 
-  private
+  # private
 
   def sentence_changer(input)
     input.split.collect do |word|
