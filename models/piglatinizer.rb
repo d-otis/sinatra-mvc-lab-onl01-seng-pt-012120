@@ -3,6 +3,11 @@ class PigLatinizer
   @way = "way"
   @ay = "ay"
 
+  def initialize
+    @way = "way"
+    @ay = "ay"
+  end
+
   def piglatinize(word)
 
 
