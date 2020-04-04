@@ -1,8 +1,10 @@
 class PigLatinizer
 
+  @way = "way"
+  @ay = "ay"
+
   def piglatinize(word)
-    way = "way"
-    ay = "ay"
+
 
     # if is single word,
       # work on single word
