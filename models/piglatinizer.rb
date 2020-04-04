@@ -12,6 +12,7 @@ class PigLatinizer
       if starts_with_one_consonant?(word)
         first_letter = word[0]
         headless_word = word[1..word.size-1]
+        binding.pry
         final_word = headless_word + first_letter + ay
       elsif starts_with_two_consonants?(word)
         first_two_letters = word[0..1]
