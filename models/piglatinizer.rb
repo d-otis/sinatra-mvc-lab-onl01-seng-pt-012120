@@ -1,7 +1,6 @@
 class PigLatinizer
 
   def piglatinize(word)
-    binding.pry
     way = "way"
     ay = "ay"
     # if starts with a consonant
@@ -28,7 +27,6 @@ class PigLatinizer
     if word[0].scan(/[bcdfghjklmnpqrstvwxyz]/) && word[1].scan(/[aeoui]/)
       true
     end
-
   end
 
   def starts_with_two_consonants?(word)
