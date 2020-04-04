@@ -8,7 +8,7 @@ class PigLatinizer
   #   @ay = "ay"
   # end
 
-  def piglatinize(word)
+  def piglatinize(input)
 
 
     if is_sentence?(input)
