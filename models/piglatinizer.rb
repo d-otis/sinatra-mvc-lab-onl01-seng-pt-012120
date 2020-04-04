@@ -12,17 +12,17 @@ class PigLatinizer
 
 
     if is_sentence?(word)
-      arr = word.split
-      arr.collect do |word|
-        word_changer(word)
-      end.join(" ")
+
     else
       word_changer(word)
     end
   end
 
   def sentence_changer(input)
-
+    arr = word.split
+    arr.collect do |word|
+      word_changer(word)
+    end.join(" ")
   end
 
   def word_changer(word)
