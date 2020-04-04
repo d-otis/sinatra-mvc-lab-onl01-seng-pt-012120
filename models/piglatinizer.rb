@@ -80,7 +80,9 @@ class PigLatinizer
   end
 
   def is_sentence?(word)
-    binding.pry
+    if word.split.count > 1
+      true
+    end
   end
 
 end
