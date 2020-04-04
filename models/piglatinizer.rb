@@ -52,6 +52,10 @@ class PigLatinizer
     final_word = headless_word + first_three_letters + @@ay
   end
 
+  def pl_vowel_word(word)
+    
+  end
+
   def starts_with_one_consonant?(word)
     if !word[0].scan(/[bcdfghjklmnpqrstvwxyz]/).empty? && !word[1].scan(/[aeoui]/).empty?
       true
