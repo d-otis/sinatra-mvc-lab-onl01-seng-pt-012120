@@ -14,7 +14,7 @@ class PigLatinizer
     if is_sentence?(word)
       arr = word.split
       arr.each do |word|
-        
+        word_changer(word)
       end
     end
 
