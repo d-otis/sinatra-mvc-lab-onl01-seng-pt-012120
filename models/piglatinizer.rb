@@ -28,7 +28,7 @@ class PigLatinizer
     end
   end
 
-  def starts_with_two_consonants?(word)
+  def starts_with_2_or_3_consonants?(word)
     if word[0..1].scan(/[bcdfghjklmnpqrstvwxyz]/).count == 2
       true
     end
