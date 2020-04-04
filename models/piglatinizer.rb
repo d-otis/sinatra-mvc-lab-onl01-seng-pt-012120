@@ -26,6 +26,8 @@ class PigLatinizer
   def starts_with_one_consonant?(word)
     binding.pry
     if word[0].scan(/[bcdfghjklmnpqrstvwxyz]/) && word[1].scan(/[aeoui]/)
+      true
+    end
 
   end
 
