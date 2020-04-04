@@ -9,8 +9,6 @@ class PigLatinizer
   # end
 
   def piglatinize(input)
-
-
     if is_sentence?(input)
       sentence_changer(input)
     else
