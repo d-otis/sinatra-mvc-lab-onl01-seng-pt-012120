@@ -4,12 +4,12 @@ class PigLatinizer
     way = "way"
     ay = "ay"
 
-    # if is single word, 
+    # if is single word,
       # work on single word
-    # else 
+    # else
       # loop through array and piglatinize each word
 
-    
+
     # if starts with a consonant
       # lop of first letter and tack on end with "-ay"
     # elsif starts with two consonants
