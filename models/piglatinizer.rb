@@ -11,10 +11,9 @@ class PigLatinizer
   def piglatinize(word)
 
 
-    # if is single word,
-      # work on single word
-    # else
-      # loop through array and piglatinize each word
+    if is_sentence?(word)
+      
+    end
 
 
     # if starts with a consonant
