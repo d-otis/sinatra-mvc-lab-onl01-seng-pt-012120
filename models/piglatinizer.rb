@@ -24,7 +24,7 @@ class PigLatinizer
   end
 
   def starts_with_one_consonant?(word)
-
+    binding.pry
   end
 
   def starts_with_two_consonants?(word)
