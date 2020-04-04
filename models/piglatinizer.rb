@@ -11,10 +11,10 @@ class PigLatinizer
   def piglatinize(word)
 
 
-    if is_sentence?(word)
-      sentence_changer(word)
+    if is_sentence?(input)
+      sentence_changer(input)
     else
-      word_changer(word)
+      word_changer(input)
     end
   end
 
