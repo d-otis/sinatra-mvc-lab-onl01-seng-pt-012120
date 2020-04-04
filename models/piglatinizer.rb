@@ -50,4 +50,8 @@ class PigLatinizer
     end
   end
 
+  def is_sentence?(word)
+    binding.pry
+  end
+
 end
