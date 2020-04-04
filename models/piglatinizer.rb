@@ -13,7 +13,7 @@ class PigLatinizer
 
     if is_sentence?(word)
       arr = word.split
-      final = arr.collect do |word|
+      arr.collect do |word|
         word_changer(word)
       end.join(" ")
     else
@@ -22,7 +22,7 @@ class PigLatinizer
   end
 
   def sentence_changer(input)
-    
+
   end
 
   def word_changer(word)
