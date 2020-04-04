@@ -16,7 +16,6 @@ class PigLatinizer
       final = arr.collect do |word|
         word_changer(word)
       end.join(" ")
-      binding.pry
     else
       word_changer(word)
     end
