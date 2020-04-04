@@ -66,7 +66,7 @@ class PigLatinizer
   end
 
   def starts_with_three_consonants?(word)
-    if word[0..2].scan(/[bcdfghjklmnpqrstvwxyz]/).count == 3
+    if word[0..2].downcase.scan(/[bcdfghjklmnpqrstvwxyz]/).count == 3
       true
     end
   end
