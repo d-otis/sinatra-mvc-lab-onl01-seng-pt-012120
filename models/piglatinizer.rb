@@ -21,6 +21,10 @@ class PigLatinizer
     end
   end
 
+  def sentence_changer(input)
+    
+  end
+
   def word_changer(word)
     if starts_with_one_consonant?(word)
       pl_one_consonant_word(word)
