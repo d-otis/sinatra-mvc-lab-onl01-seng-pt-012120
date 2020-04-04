@@ -12,7 +12,7 @@ class PigLatinizer
 
 
     if is_sentence?(word)
-      
+      binding.pry
     end
 
 
