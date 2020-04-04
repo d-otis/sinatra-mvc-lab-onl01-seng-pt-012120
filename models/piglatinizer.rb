@@ -36,7 +36,7 @@ class PigLatinizer
   def pl_one_consonant_word(word)
     first_letter = word[0]
     headless_word = word[1..word.size-1]
-    final_word = headless_word + first_letter + ay
+    final_word = headless_word + first_letter + @ay
   end
 
   def starts_with_one_consonant?(word)
