@@ -12,7 +12,10 @@ class PigLatinizer
 
 
     if is_sentence?(word)
-      binding.pry
+      arr = word.split
+      arr.each do |word|
+        
+      end
     end
 
 
