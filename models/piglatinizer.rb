@@ -17,7 +17,7 @@ class PigLatinizer
         first_two_letters = word[0..1]
         headless_word = word[2..word.size-1]
         final_word = headless_word + first_two_letters + ay
-      elsif starts_with_two_consonants?(word)
+      elsif starts_with_three_consonants?(word)
         first_two_letters = word[0..1]
         headless_word = word[2..word.size-1]
         final_word = headless_word + first_two_letters + ay
@@ -38,7 +38,7 @@ class PigLatinizer
     end
   end
 
-  def starts_with_two_consonants?(word)
+  def starts_with_three_consonants?(word)
     if word[0..2].scan(/[bcdfghjklmnpqrstvwxyz]/).count == 3
       true
     end
