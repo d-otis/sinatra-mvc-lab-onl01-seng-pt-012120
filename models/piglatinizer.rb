@@ -35,6 +35,7 @@ class PigLatinizer
   end
 
   def starts_with_a_vowel?(word)
+    binding.pry
     if !word[0].scan(/[aeoui]/).empty?
       true
     end
