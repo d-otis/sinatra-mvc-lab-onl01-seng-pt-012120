@@ -3,6 +3,7 @@ class PigLatinizer
   def piglatinize(word)
     way = "way"
     ay = "ay"
+    word = word.downcase
     # if starts with a consonant
       # lop of first letter and tack on end with "-ay"
     # elsif starts with two consonants
