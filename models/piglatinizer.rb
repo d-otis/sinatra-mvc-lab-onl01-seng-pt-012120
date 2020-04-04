@@ -36,7 +36,9 @@ class PigLatinizer
   end
 
   def starts_with_a_vowel?(word)
-
+    if !word[0].scan(/[aeoui]/).empty?
+      true
+    end
   end
 
 end
