@@ -20,15 +20,6 @@ class PigLatinizer
     else
       word_changer(word)
     end
-
-
-    # if starts with a consonant
-      # lop of first letter and tack on end with "-ay"
-    # elsif starts with two consonants
-      # lop off first two letters and tack on end
-    # elsif starts with vowel
-      # keep work but tack on way @ the end
-
   end
 
   def word_changer(word)
