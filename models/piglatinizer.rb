@@ -17,7 +17,7 @@ class PigLatinizer
     # elsif starts with vowel
       # keep work but tack on way @ the end
       if starts_with_one_consonant?(word)
-
+        pl_one_consonant_word(word)
       elsif starts_with_two_consonants?(word) && !starts_with_three_consonants?(word)
         first_two_letters = word[0..1]
         headless_word = word[2..word.size-1]
