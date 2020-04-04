@@ -19,8 +19,6 @@ class PigLatinizer
   end
 
   def sentence_changer(input)
-    arr = input.split
-    binding.pry
     input.split.collect do |word|
       word_changer(word)
     end.join(" ")
