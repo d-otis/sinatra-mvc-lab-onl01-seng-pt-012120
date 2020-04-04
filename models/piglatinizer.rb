@@ -34,6 +34,7 @@ class PigLatinizer
   end
 
   def pl_one_consonant_word(word)
+    binding.pry
     first_letter = word[0]
     headless_word = word[1..word.size-1]
     final_word = headless_word + first_letter + @ay
