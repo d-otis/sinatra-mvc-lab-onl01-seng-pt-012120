@@ -17,6 +17,8 @@ class PigLatinizer
         word_changer(word)
       end
       binding.pry
+    else
+      word_changer(word)
     end
 
 
