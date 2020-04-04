@@ -20,7 +20,7 @@ class PigLatinizer
       elsif starts_with_three_consonants?(word)
         first_three_letters = word[0..2]
         headless_word = word[2..word.size-1]
-        final_word = headless_word + first_two_letters + ay
+        final_word = headless_word + first_three_letters + ay
       elsif starts_with_a_vowel?(word)
         final_word = word + way
       end
